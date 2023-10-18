@@ -12,6 +12,8 @@ Here are examples of NIS3D. Each row represents a specific data, with columns fr
 
 ## Resource
 
+The paper can be found here: *TBA*
+
 The dataset can be found here: [*NIS3D*](https://drive.google.com/drive/folders/1LLI2-kW1Py90373WUO5FX7w7b0vIrKLE?usp=sharing).
 
 The annotation tool can be found here: [*PrinCut*](https://drive.google.com/drive/folders/1iKrQtGZO3NGYLe-UPaejNIy6mL8UFrTi?usp=sharing).
