@@ -26,13 +26,13 @@ Here are examples of NIS3D. Each row represents a specific data, with columns fr
 The PrinCut GUI is shown in the figure below. PrinCut is a MATLAB app, and its package is also provided in the resource section below. The app is tested and used on MATLAB 2022b.
 
 <p align="center">
- <img src="./figures/PrinCut.png" width="80%">
+ <img src="./figures/PrinCut.png" width="70%">
 </p>
 
 PrinCut is based on the min-cut flow algorithm and uses a statistically normalized principal curvature as the network's capacity. With the PrinCut, users can add a cell label by simply clicking the cell, and a 3D suggestive boundary will be automatically generated. We request the annotators check the suggestive boundary on every z slice to make sure it's correct. For example, if the suggestive boundary contains more than one cell, users can split the cell by clicking the center of each cell and PrinCut can give a suggestive boundary to each cell. However, there is a chance that the gap between two cells is too weak that the principal curvature is still negative. In this case, users need to use the brush to draw the expected boundary.
 
 <p align="center">
- <img src="./figures/SplitMerge2.png" width="80%">
+ <img src="./figures/SplitMerge2.png" width="70%">
 </p>
 
 ## Resource
