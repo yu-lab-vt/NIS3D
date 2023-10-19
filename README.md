@@ -22,59 +22,6 @@ Here are examples of NIS3D. Each row represents a specific data, with columns fr
 
 - Annotation tools: We designed a semi-automatic annotation tool, PrinCut, which significantly speeds up the workflow and reduces human bias when the boundary is weak.
 
-## Evaluation metrics
-
-**Preprocessing and truth positive criteria**  To initiate the process, we exclude detections where more than 50% of
-their pixels fall within the undefined mask. Then for a given detection
-*D*<sub>*i*</sub>, we determine it matches with ground truth
-*G*<sub>*j*</sub> if and only if both of the two following condition
-holds:
-*D*<sub>*i*</sub> = arg max<sub>*D*<sub>*k*</sub></sub>IoU(*D*<sub>*k*</sub>,*G*<sub>*j*</sub>)   *G*<sub>*j*</sub> = arg max<sub>*G*<sub>*k*</sub></sub>IoU(*D*<sub>*i*</sub>,*G*<sub>*k*</sub>),
-where *D*<sub>*k*</sub> and *G*<sub>*k*</sub> are all possible choices
-from detections and ground truth, and IoU(*A*,*B*) is the intersection
-over the union between *A* and *B*.
-
-#### Weighted precision(W-Precision), recall(W-Recall), and F1(W-F1)
-
-The weighted scores are based on the confidence score.
-
-The weighted true positive (W-TP) and false negative (W-FN) are
-calculated as follows:
-
-$$\begin{aligned}
-    \text{W-TP} &= \sum C_i T_i \qquad
-    \text{W-FN} &= \sum C_i (1-T_i),
-\end{aligned}$$
-
-where *C*<sub>*i*</sub> is the confidence score of ground truth
-*G*<sub>*i*</sub> and *T*<sub>*i*</sub> is the detection flag of
-*G*<sub>*i*</sub>. *T*<sub>*i*</sub> = 1 indicates if *G*<sub>*i*</sub>
-is detected, otherwise *T*<sub>*i*</sub> = 0.
-
-The weighted precision (W-Precision), recall (W-Recall), and F1 (W-F1)
-are calculated as follows:
-$$\begin{aligned}
-    \text{W-Precision} = \frac{\text{W-TP}}{\text{W-TP} + \text{FP}}  \quad
-    \text{W-Recall} = \frac{\text{W-TP}}{\text{W-TP} + \text{W-FN}} \quad
-    \text{W-F1} = \frac{2\text{W-TP}}{2\text{W-TP} + \text{FP} + \text{W-FN}}
-\end{aligned}$$
-
-#### Weighted IoU
-
-Weighted IoU (W-IoU) is used to show the accuracy of foreground of
-detection.
-$$\text{W-IoU} =\frac{\sum\_{i\in A\cap B} f(i)}{\sum\_{i\in A} f(i) + \sum\_{i\in  B/A} 1}$$
-
-where *A* is the pixel belong to ground truth, *B* is the pixel belong
-to detection, and *f*(*i*) is the confidence score of *i*-th pixel.
-
-#### Weighted SEG
-
-Weighted SEG (W-SEG) score is used to show the average IoU score of all
-cells.
-$$\text{W-SEG} =\frac{\sum C_i G_i}{\text{W-TP}+\text{W-FN}+\text{FP}},$$
-where *G*<sub>*i*</sub> is the IoU score of the *i*-th ground truth.
-
 ## Resource
 
 **The paper can be found here:** *TBA*
