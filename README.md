@@ -22,6 +22,19 @@ Here are examples of NIS3D. Each row represents a specific data, with columns fr
 
 - Annotation tools: We designed a semi-automatic annotation tool, PrinCut, which significantly speeds up the workflow and reduces human bias when the boundary is weak.
 
+## Annotation tool: PrinCut
+The PrinCut GUI is shown in the figure below. PrinCut is a MATLAB app, and its package is also provided in the supplementary. The app is tested and used on MATLAB 2022b.
+
+<p align="center">
+ <img src="./figures/PrinCut.png" width="70%">
+</p>
+
+With the PrinCut, users can add a cell label by simply clicking the cell, and a 3D suggestive boundary will be automatically generated. We request the annotators check the suggestive boundary on every z slice to make sure it's correct. If the suggestive boundary contains more than one cell, users can split the cell by clicking the center of each cell and PrinCut can give a suggestive boundary to each cell. However, there is a chance that the gap between two cells is too weak that the principal curvature is still negative. In this case, users need to use the brush to draw the expected boundary.
+
+<p align="center">
+ <img src="./figures/SplitMerge2.png" width="70%">
+</p>
+
 ## Resource
 
 **The paper can be found here:** *TBA*
