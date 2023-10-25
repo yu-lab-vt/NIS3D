@@ -41,7 +41,7 @@ PrinCut is based on the min-cut flow algorithm and uses a statistically normaliz
 
 **The dataset and the suggetive training\test split can be found here:** [*NIS3D*](https://drive.google.com/drive/folders/1LLI2-kW1Py90373WUO5FX7w7b0vIrKLE?usp=sharing).
 
-Note: The organization of NIS3D is shown in the figure below. Each folder contains 5 files, "Data.tif", "GroundTruth.tif", "ConfidenceScore.tif", "Visulize.tif", and "Info.txt". The "Data.tif" is the raw data. The "GroundTruth.tif" give the labels of ground truth. Different numbers in "GroundTruth.tif" represent different labels and 0 represents the background. "ConfidenceScore.tif" shows the confidence score map. The pixels belonging to the same label have the same confidence score. The value of "ConfidenceScore.tif" range from 0 to 4. 0 means background, 1 means undefined mask, 2 means 1/3 confidence score, 3 means 2/3 confidence score, and 4 means 3/3 confidence score. "Visulize.tif" shows the raw data, the ground truth labels, and the confidence score at the same time, which is the same as Figure 1 of the main paper. The "Info.txt" gives a brief description of the data and the link to the original paper of the data for more detail information. The tif file is a widely used format in the field. The software Fiji is one popular option to open and view tif files. 
+The organization of NIS3D is shown in the figure below. Each folder contains 5 files, "Data.tif", "GroundTruth.tif", "ConfidenceScore.tif", "Visulize.tif", and "Info.txt". The "Data.tif" is the raw data. The "GroundTruth.tif" give the labels of ground truth. Different numbers in "GroundTruth.tif" represent different labels and 0 represents the background. "ConfidenceScore.tif" shows the confidence score map. The pixels belonging to the same label have the same confidence score. The value of "ConfidenceScore.tif" range from 0 to 4. 0 means background, 1 means undefined mask, 2 means 1/3 confidence score, 3 means 2/3 confidence score, and 4 means 3/3 confidence score. "Visulize.tif" shows the raw data, the ground truth labels, and the confidence score at the same time, which is the same as Figure 1 of the main paper. The "Info.txt" gives a brief description of the data and the link to the original paper of the data for more detail information. The tif file is a widely used format in the field. The software Fiji is one popular option to open and view tif files. 
 
 <p align="center">
  <img src="./figures/DataStructure2.jpg" width="50%">
@@ -49,8 +49,8 @@ Note: The organization of NIS3D is shown in the figure below. Each folder contai
 
 **The annotation tool can be found here:** [*PrinCut*](https://drive.google.com/drive/folders/1iKrQtGZO3NGYLe-UPaejNIy6mL8UFrTi?usp=sharing).
 
-Note: Please check the supplementary of the paper for how to use it.
+Please check the supplementary of the paper for how to use it.
 
 **Other resource**: [*Experimental data*](https://drive.google.com/drive/folders/1ZF0bYP4EQq3J8S7YQqqPk7NrXMMGCPZT?usp=sharing) and [*Raw annotation data*](https://drive.google.com/drive/folders/1NpLRYRBoUHBcZJX_6jbMnfob9_SEo1BZ?usp=sharing).
 
-Note: Please use the PrinCut "load result" button to open the raw annotation data
+Please use the PrinCut "load result" button to open the raw annotation data
