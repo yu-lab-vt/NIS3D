@@ -48,3 +48,9 @@ The organization of NIS3D is shown in the figure below. Each folder contains 5 f
 </p>
 
 **The annotation tool can be found here:** [*PrinCut*](https://drive.google.com/drive/folders/1iKrQtGZO3NGYLe-UPaejNIy6mL8UFrTi?usp=sharing).
+
+**Baseline methods results and evaluation code**: [*Experimental data*](https://drive.google.com/drive/folders/1ZF0bYP4EQq3J8S7YQqqPk7NrXMMGCPZT?usp=sharing).
+
+**Raw annotation data:** [*Raw data*](https://drive.google.com/drive/folders/1NpLRYRBoUHBcZJX_6jbMnfob9_SEo1BZ?usp=sharing).
+
+Please use the PrinCut "load result" button to open the raw data
