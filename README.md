@@ -57,4 +57,4 @@ Please use the PrinCut "load result" button to open the raw annotation data
 
 ## Citation
 
-Please cite the following paper for use: TBA
+Please cite the following paper if you use the dataset: *TBA*
