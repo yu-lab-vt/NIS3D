@@ -37,7 +37,7 @@ PrinCut is based on the min-cut flow algorithm and uses a statistically normaliz
 
 ## Resource
 
-**The paper can be found here:** *See you at NeurIPS 2023*(https://drive.google.com/file/d/1hIrMWDORmqCaT0WWBw3ULl0HR672DSi0/view?usp=drive_link).
+**The paper can be found here:** [*See you at NeurIPS 2023*](https://drive.google.com/file/d/1hIrMWDORmqCaT0WWBw3ULl0HR672DSi0/view?usp=drive_link).
 
 **The dataset and the suggetive training\test split can be found here:** [*NIS3D*](https://drive.google.com/drive/folders/1LLI2-kW1Py90373WUO5FX7w7b0vIrKLE?usp=sharing).
 
