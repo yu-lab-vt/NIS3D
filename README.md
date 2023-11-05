@@ -22,7 +22,7 @@ Here are examples of NIS3D. Each row represents a specific data, with columns fr
 
 - Annotation tools: We designed a semi-automatic annotation tool, PrinCut, which significantly speeds up the workflow and reduces human bias when the boundary is weak.
 
-## Annotation tool: PrinCut
+## Annotation tool: PrinCut 1.0
 The PrinCut GUI is shown in the figure below. PrinCut is a MATLAB app, and its package is also provided in the resource section below. The app is tested and used on MATLAB 2022b.
 
 <p align="center">
