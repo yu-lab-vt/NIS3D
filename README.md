@@ -55,7 +55,7 @@ Please check the supplementary of the paper for how to use it.
 
 **A more advanced version of PrinCut is provided here**: [*PrinCut-Auto*](https://github.com/yu-lab-vt/PrinCut-Auto).
 
-PrinCut not only provides manual annotation tools but also an automatic cell detector.
+PrinCut-Auto not only provides manual annotation tools but also an automatic cell detector.
 
 **Other resource**: [*Experimental data*](https://drive.google.com/drive/folders/1ZF0bYP4EQq3J8S7YQqqPk7NrXMMGCPZT?usp=sharing) and [*Raw annotation data*](https://drive.google.com/drive/folders/1NpLRYRBoUHBcZJX_6jbMnfob9_SEo1BZ?usp=sharing).
 
