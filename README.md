@@ -22,7 +22,7 @@ Here are examples of NIS3D. Each row represents a specific data, with columns fr
 
 - Annotation tools: We designed a semi-automatic annotation tool, PrinCut, which significantly speeds up the workflow and reduces human bias when the boundary is weak.
 
-## Annotation tool: PrinCut 1.0
+## Annotation tool: PrinCut-Manual
 The PrinCut GUI is shown in the figure below. PrinCut is a MATLAB app, and its package is also provided in the resource section below. The app is tested and used on MATLAB 2022b.
 
 <p align="center">
@@ -34,6 +34,8 @@ PrinCut is based on the min-cut flow algorithm and uses a statistically normaliz
 <p align="center">
  <img src="./figures/SplitMerge2.png" width="70%">
 </p>
+
+A more advanced version is provided here: [*PrinCut-Auto*](https://github.com/yu-lab-vt/PrinCut-Auto).
 
 ## Resource
 
@@ -47,9 +49,13 @@ The organization of NIS3D is shown in the figure below. Each folder contains 5 f
  <img src="./figures/DataStructure2.jpg" width="50%">
 </p>
 
-**The annotation tool can be found here:** [*PrinCut*](https://drive.google.com/drive/folders/1iKrQtGZO3NGYLe-UPaejNIy6mL8UFrTi?usp=sharing).
+**The PrinCut-Manual used to annotate NIS3D can be found here:** [*PrinCut-Manual*](https://drive.google.com/drive/folders/1iKrQtGZO3NGYLe-UPaejNIy6mL8UFrTi?usp=sharing).
 
 Please check the supplementary of the paper for how to use it.
+
+**A more advanced version of PrinCut is provided here**: [*PrinCut-Auto*](https://github.com/yu-lab-vt/PrinCut-Auto).
+
+PrinCut not only provides manual annotation tools but also an automatic cell detector.
 
 **Other resource**: [*Experimental data*](https://drive.google.com/drive/folders/1ZF0bYP4EQq3J8S7YQqqPk7NrXMMGCPZT?usp=sharing) and [*Raw annotation data*](https://drive.google.com/drive/folders/1NpLRYRBoUHBcZJX_6jbMnfob9_SEo1BZ?usp=sharing).
 
