@@ -60,3 +60,15 @@ PrinCut-Auto not only provides manual annotation tools but also an automatic cel
 **Other resource**: [*Experimental data*](https://drive.google.com/drive/folders/1ZF0bYP4EQq3J8S7YQqqPk7NrXMMGCPZT?usp=sharing) and [*Raw annotation data*](https://drive.google.com/drive/folders/1NpLRYRBoUHBcZJX_6jbMnfob9_SEo1BZ?usp=sharing).
 
 Please use the PrinCut "load result" button to open the raw annotation data
+
+## Citation
+If you find the code useful for your research, please cite our paper.
+```
+@inproceedings{zheng2023nis3d,
+  title={NIS3D: A Completely Annotated Benchmark for Dense 3D Nuclei Image Segmentation},
+  author={Zheng, Wei and Peng, James Cheng and Hou, Zeyuan and Lyu, Boyu and Wang, Mengfan and Mi, Xuelong and Qiao, Shuoxuan and Wan, Yinan and Yu, Guoqiang},
+  booktitle={Thirty-seventh Conference on Neural Information Processing Systems Datasets and Benchmarks Track},
+  year={2023}
+}
+```
+}
