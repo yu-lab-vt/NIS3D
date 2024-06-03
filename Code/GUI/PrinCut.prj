@@ -1,0 +1,139 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="2820071166" file="E:\Project\principal curvature experiment\GUI\PrinCut.prj" location="E:\Project\principal curvature experiment\GUI" name="PrinCut" target="target.mlapps" target-name="Package App">
+    <param.appname>PrinCut</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\zheng\AppData\Local\Temp\tpc62b4b31_1618_47c1_b327_eb93df914909.png</param.screenshot>
+    <param.version>2.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>E:\Project\principal curvature experiment\exportedApp</param.output>
+    <param.guid>bb7451f9-aba3-4031-af60-f8d8b807ae0d</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\PrinCut.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\boundaryRefineModule_v2.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\crop3D_Wei.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\cc_ImHandle\crop3D.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\cc_ImHandle\ind2sub_direct.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\cc_ImHandle\scale_image.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\cc_ImHandle\sub2ind_direct.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\cc_ImHandle\tifread.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\getSmartSeed.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\graphCut_negHandle_mat.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\graphCut_negHandle_mat_v2.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\initial_q.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\neighbours_mat.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\rearrange_id.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\rearrangeLabel.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\region_sanity_check.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\dependencies\shortestPath_negHandle_mat.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\get_local_area_manual_Wei.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\get_local_area_Wei.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\getSeedMap.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\getSmartSeedStandalone.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\ksegments_orderstatistics_fin.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\refineOneRegion_with_seed_forSmartSeed.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\refineOneRegion_with_seed_parallel_Wei_v2.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\regionWiseAnalysis4d_Wei_v11.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\removeFalsePositiveCell9.m</file>
+      <file>E:\Project\principal curvature experiment\boundaryRefine\removeFalsePositiveModule.m</file>
+      <file>${PROJECT_ROOT}\backgroundMethod.mlapp</file>
+      <file>${PROJECT_ROOT}\BG_globalThresholding.mlapp</file>
+      <file>${PROJECT_ROOT}\figures\leftIcon.png</file>
+      <file>${PROJECT_ROOT}\figures\rightIcon.png</file>
+      <file>E:\Project\principal curvature experiment\imageIO_Wei\gray2RGB_HD.m</file>
+      <file>E:\Project\principal curvature experiment\imageIO_Wei\label2RGB_HD_v2.m</file>
+      <file>E:\Project\principal curvature experiment\newPrincipalCurvatureFunctions_Wei\noiseEstimation\PCThreshold.m</file>
+      <file>E:\Project\principal curvature experiment\newPrincipalCurvatureFunctions_Wei\oldMethod\gradient3.m</file>
+      <file>E:\Project\principal curvature experiment\SIPCv4\3D\getCurvature_3D_v4d4.m</file>
+      <file>E:\Project\principal curvature experiment\SIPCv4\3D\Hessian3D_v5.m</file>
+      <file>E:\Project\principal curvature experiment\SIPCv4\3D\imgaussian_v4.m</file>
+      <file>E:\Project\principal curvature experiment\SIPCv4\3D\PrcplCrvtr_scaleInvariant_3D_v9.m</file>
+      <file>E:\Project\principal curvature experiment\SIPCv4\3D\PrcplCrvtr_scaleInvariant_3D_v9d1.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="E:\Project\principal curvature experiment" name="exportedApp" optional="false">E:\Project\principal curvature experiment\exportedApp</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Tool\MATLAB\R2023a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
