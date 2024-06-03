@@ -49,7 +49,7 @@ The organization of NIS3D is shown in the figure below. Each folder contains 5 f
  <img src="./figures/DataStructure2.jpg" width="50%">
 </p>
 
-**The PrinCut-Manual used to annotate NIS3D can be found here:** [*PrinCut-Manual*](https://drive.google.com/drive/folders/1iKrQtGZO3NGYLe-UPaejNIy6mL8UFrTi?usp=sharing).
+**The PrinCut-Manual used to annotate NIS3D can be found here:** [*PrinCut-Manual*](https://github.com/yu-lab-vt/NIS3D/tree/main/App).
 
 Please check the supplementary of the paper for how to use it.
 
