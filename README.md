@@ -57,7 +57,7 @@ Please check the supplementary of the paper for how to use it.
 
 PrinCut-Auto not only provides manual annotation tools but also an automatic cell detector.
 
-**Other resource**: [*Experimental data*](https://zenodo.org/records/11457793) and [*Raw annotation data*](https://drive.google.com/drive/folders/1NpLRYRBoUHBcZJX_6jbMnfob9_SEo1BZ?usp=sharing).
+**Other resource**: [*Experimental data*](https://zenodo.org/records/11457793) and [*Raw annotation data*](https://zenodo.org/records/11457858).
 
 Please use the PrinCut "load result" button to open the raw annotation data
 
