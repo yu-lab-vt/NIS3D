@@ -39,7 +39,7 @@ A more advanced version is provided here: [*PrinCut-Auto*](https://github.com/yu
 
 ## Resource
 
-**The paper can be found here:** [*See you at NeurIPS 2023*](https://drive.google.com/file/d/1hIrMWDORmqCaT0WWBw3ULl0HR672DSi0/view?usp=drive_link).
+**The paper can be found here:** [*See you at NeurIPS 2023*](https://proceedings.neurips.cc/paper_files/paper/2023/hash/0f2cd3d09a132757555b602e2dd43784-Abstract-Datasets_and_Benchmarks.html).
 
 **The dataset and the suggetive training\test split can be found here:** [*NIS3D*](https://drive.google.com/drive/folders/1LLI2-kW1Py90373WUO5FX7w7b0vIrKLE?usp=sharing).
 
